@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Technical Doc Elemental Reaction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Topics</header>
+        <ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#Anemo!" class="nav-link">Anemo!</a></li>
+            <li><a href="#Geo!" class="nav-link">Geo!</a></li>
+            <li><a href="#Pyro!" class="nav-link">Pyro!</a></li>
+            <li><a href="#Electro!" class="nav-link">Electro!</a> </li>
+            <li><a href="#Cryo!" class="nav-link">Cryo!</a></li>
+            <li><a href="#Hydro!" class="nav-link">Hydro!</a></li>
+            <li><a href="#Dendro!" class="nav-link">Dendro!</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Welcome to the Technical Doc Project made on freeCodeCamp!</p>
+            <p>You will see in this page how elements interact with others in the game genshin impact!</p>
+            <p>The game have 7 elements, but we will not talk much about the <span id="dendro">Dendro</span> one...</p>
+            <p>Note: The elemental reaction is to see as: second is the element already on the target, first is your
+                elemental attack</p>
+            <p>Here are the list os elements:</p>
+            <ul>
+                <li>Anemo</li>
+                <li>Geo</li>
+                <li>Pyro</li>
+                <li>Electro</li>
+                <li>Cryo</li>
+                <li>Hydro</li>
+                <li>Dendro</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Anemo!">
+            <header>Anemo!</header>
+            <p><span id="anemo">Anemo</span> is the name for <span id="anemo">wind</span> element, witch is my favorite
+                of the game.</p>
+            <p>The reaction of the anemo is <span id="anemo">swirl</span>, a reaction whose take one element in contact
+                and spread it effect causing other reactions! </p>
+            <p>Here are Anemo combinations:</p>
+            <code> <span id="anemo">Anemo</span> + <span id="pyro">Pyro</span></code><br>
+            <code> <span id="anemo">Anemo</span> + <span id="hydro">Hydro</span></code><br>
+            <code> <span id="anemo">Anemo</span> + <span id="cryo">Cryo</span></code><br>
+            <code> <span id="anemo">Anemo</span> + <span id="electro">Electro</span></code><br>
+        </section>
+        <section class="main-section" id="Geo!">
+            <header>Geo!</header>
+            <p>The <span id="geo">Geo</span> element is the <span id="geo">earth</span> element.</p>
+            <p>The interaction is similar to the anemo, but it consume de element and create a crystal shard wich
+                creates a elemental shield for who picks. The reaction is called crystallize</p>
+            <p>Here are Geo combinations:</p>
+            <code> <span id="geo">Geo</span> + <span id="pyro">Pyro</span> = <span id="pyro">Pyro Shield</span></code><br>
+            <code> <span id="geo">Geo</span> + <span id="hydro">Hydro</span> = <span id="hydro">Hydro Shield</span></code><br>
+            <code> <span id="geo">Geo</span> + <span id="cryo">Cryo</span> = <span id="Cryo">Cryo Shield</span></code><br>
+            <code> <span id="geo">Geo</span> + <span id="electro">Electro</span> = <span id="Electro">Electro Shield</span></code><br>
+        </section>
+        <section class="main-section" id="Pyro!">
+            <header>Pyro!</header>
+            <p> <span id="pyro">Pyro</span> is the <span id="pyro">fire</span> element</span> </p>
+            <p>Unlike Anemo and Geo, Pyro have diferent reaction with each elements.</p>
+            <p>Here are Pyro combinations:</p>
+            <code> <span id="pyro">Pyro</span> + <span id="cryo">Cryo</span> = Melt, deals 2x <span id="pyro">Pyro</span> dmg.</code></code><br>
+            <code> <span id="pyro">Pyro</span> + <span id="hydro">Hydro</span> = Vaporize, (reversed) deals 1.5x <span id="pyro">Pyro</span> dmg.</code></code><br>
+            <code> <span id="pyro">Pyro</span> + <span id="electro">Electro</span> = Overload, deals a explosion with AoE <span id="pyro">Pyro</span> dmg</code><br>
+            <code> <span id="pyro">Pyro</span> + <span id="dendro">Dendro</span> = Burning, deals continuous <span id="pyro">Pyro</span> dmg.</code><br>
+        </section>
+        <section class="main-section" id="Electro!">
+            <header>Electro!</header>
+            <p>It's easy associate <span id="electro"> Electro</span> with eletricity.</p>
+            <p>Like Pyro, it have differenct reactions:</p>
+            <code> <span id="electro">Electro</span> + <span id="pyro">Pyro</span> = Overload, deals a explosion with AoE <span id="pyro">Pyro</span> dmg</code><br>
+            <code> <span id="electro">Electro</span> + <span id="hydro">Hydro</span> = Eletro-charge, deals continuous <span id="electro">Electro</span> dmg.</code><br>
+            <code> <span id="electro">Electro</span> + <span id="cryo">Cryo</span> = Superconduct, deals AoE <span id="cryo">cryo</span> dmg and reduces target physical defense.</code><br>
+        </section>
+        <section class="main-section" id="Cryo!">
+            <header>Cryo!</header>
+            <p> <span id="cryo"> Cryo </span> is the element that represent ice. </p>
+            <p>Enemys affected by cryo moves slow.</p>
+            <p>Here are the combinations:</p>
+            <code> <span id="cryo">Cryo</span> + <span id="pyro">Pyro</span> = Melt (reversed) deals 1.5x <span id="cryo">cryo</span> dmg</code><br>
+            <code> <span id="cryo">Cryo</span> + <span id="hydro">Hydro</span> = Frozen, freezes enemy in place.</code><br>
+            <code> <span id="cryo">Cryo</span> + <span id="electro">Electro</span> = Superconduct, deals AoE <span id="cryo">cryo</span> dmg and reduces target physical defense.</code><br>
+        </section>
+        <section class="main-section" id="Hydro!">
+            <header>Hydro!</header>
+            <p><span id="hydro">Hydro</span> it's the water element.</p>
+            <p>It effects are similar to the other.</p>
+            <p>The combinations are all listed above, here a resume:</p>
+            <code> <span id="hydro">Hydro</span> + <span id="cryo">Cryo</span> = Frozen, freezes enemy in place.</code><br>
+            <code> <span id="hydro">Hydro</span> + <span id="electro">Electro</span> = Eletro-charge, deals continuous <span id="electro">Electro</span> dmg.</code><br>
+            <code> <span id="hydro">Hydro</span> + <span id="pyro">Pyro</span> = Vaporize, deals 2x <span id="hydro">Hydro</span> dmg.</code></code><br>
+        </section>
+        <section class="main-section" id="Dendro!">
+            <header>Dendro!</header>
+            <p><span id="dendro">Dendro</span> is the representative of <span id="dendro">nature</span>.</p>
+            <p>It's a reworked element in the game, the reactions are all new and i will not list them because of this.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>

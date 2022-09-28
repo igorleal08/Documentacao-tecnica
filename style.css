@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Galindo', sans-serif;
+    font-size: 1.1em;
+    display: block;
+    background-color: #f0f5f9;
+}
+
+main {
+    display: block;
+    margin-left: 220px;
+    padding-bottom: 20px;
+}
+
+section {
+    display: block;
+}
+
+header {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 30px auto 10px;
+}
+
+li {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    font-size: 1em;
+    list-style-type: none;
+}
+
+#anemo {
+    color: #2c9f8e;
+    font-weight: bold;
+}
+
+#geo {
+    color: #d79b45;
+    font-weight: bold;
+}
+
+#pyro {
+    color: #b5262e;
+    font-weight: bold;
+}
+
+#electro {
+    color: #6b54a9;
+    font-weight: bold;
+}
+
+#cryo {
+    color: #8cafc3;
+    font-weight: bold;
+}
+
+#hydro {
+    color: #2490b5;
+    font-weight: bold;
+}
+
+#dendro {
+    color: #74b523;
+    font-weight: bold;
+}
+
+code {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+p {
+    margin: 0;
+    padding: 2px 0;
+    line-height: 1.2;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 190px;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    border-right: solid;
+    border-color: gray;
+}
+
+nav {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width: 570px) {
+    nav {
+        display: none;
+    }
+
+    main {
+        display: block;
+        margin-left: 10px;
+        padding-bottom: 20px;
+    }
+
+}
